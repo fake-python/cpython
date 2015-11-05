@@ -1,0 +1,23 @@
+language: c
+
+addons:
+  apt:
+    packages:
+      - tk-dev
+      - liblzma-dev
+
+compiler:
+  - clang
+  - gcc
+
+before_script:
+  - ./configure
+  - make $BUILDTARGET -j
+
+script:
+  - make buildbottest
+
+# Since this is just a demo repository, we don't want people who may not even
+# be involved in the demo to get an email when build fail.
+notifications:
+  email: false
