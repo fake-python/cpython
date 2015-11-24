@@ -17,7 +17,6 @@ libpython*.a
 libpython*.so*
 python.exe
 python-gdb.py
-reflog.txt
 tags
 TAGS
 .gdb_history
