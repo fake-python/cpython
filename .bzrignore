@@ -19,7 +19,7 @@ python.exe
 python-gdb.py
 reflog.txt
 tags
-TAGS
+Change in 3.5 that will conflict with master
 .gdb_history
 Doc/tools/sphinx
 Doc/tools/jinja
