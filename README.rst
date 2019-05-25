@@ -1,4 +1,4 @@
-Experimental Throw-aways Python Test Project
-============================================
+DO NOT USE THIS REPO
+====================
 
-Don't confuse this with the official CPython project (http://hg.python.org/cpython).
+Don't confuse this with the official CPython project (https://github.com/python/cpython/).
